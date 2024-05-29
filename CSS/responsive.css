@@ -1,0 +1,917 @@
+@media (max-width: 1400px) {
+  .slider-section .container .first-banner,
+  .slider-section .container .second-banner,
+  .slider-section .container .third-banner {
+    height: 100vh;
+  }
+  .populer-product-section .card {
+    width: 200px;
+  }
+  .best-sells-section .card {
+    height: 480px;
+    width: 275px;
+    margin: 0 0.325rem;
+  }
+  .best-sells-section .coffee-card .card-text h3 {
+    font-size: 1.425rem;
+  }
+  .best-sells-section .coffee-card .card-text p {
+    font-size: 0.775rem;
+  }
+  .best-sells-section .card .card-info button {
+    margin-top: 0.325rem;
+    padding: 0.325rem 4rem;
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .timer-section div {
+    width: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .navbar-brand img {
+    width: 180px;
+  }
+  .form-box input {
+    width: 40vh;
+    font-size: 0.825rem;
+    padding: 0.525rem;
+  }
+  .form-box button {
+    font-size: 0.825rem;
+    padding: 0.325rem 0.825rem;
+  }
+  .search-btn {
+    position: absolute;
+    left: 11.5375rem;
+    font-size: 0.725rem;
+  }
+  .icon-list i {
+    font-size: 0.625rem;
+    padding: 0px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav .nav-item {
+    font-size: 0.925rem;
+  }
+  .department-btn {
+    font-size: 0.825rem;
+  }
+  .dropdown-mega .dropdown-menu .list-group .list-group-item {
+    padding: 0.095rem 0.225rem;
+    font-size: 0.825rem;
+  }
+  .dropdown-mega .dropdown-menu h5 {
+    font-size: 0.925rem;
+  }
+
+  .slider-section .banner-info h1 {
+    font-size: 2.225rem;
+    margin-bottom: 1rem;
+  }
+  .slider-section .banner-info span {
+    font-size: 1rem;
+  }
+  .slider-section .banner-info .highlight {
+    font-size: 2.225rem;
+  }
+  .slider-section .banner-info button {
+    font-size: 0.925rem;
+  }
+  .slider-section .container .first-banner,
+  .slider-section .container .second-banner,
+  .slider-section .container .third-banner {
+    height: 70vh;
+  }
+  .slider-section .banner-info {
+    padding: 2.125rem;
+  }
+  .gallery .card {
+    width: 200px;
+    padding: 0.825rem !important;
+  }
+  .gallery .card .card-text p {
+    font-size: 0.725rem;
+  }
+  .images img {
+    padding: 0px;
+  }
+  .feature-section h3 {
+    font-size: 1.325rem;
+  }
+  .fruits-banner h3 {
+    font-size: 1.325rem;
+  }
+  .fruits-banner button {
+    font-size: 0.725rem;
+    padding: 0.675rem;
+  }
+  .breads-banner h3 {
+    font-size: 1.325rem;
+  }
+  .breads-banner button {
+    font-size: 0.725rem;
+    padding: 0.675rem;
+  }
+  .fruits-banner {
+    padding: 1.75rem !important;
+  }
+  .breads-banner {
+    padding: 1.75rem !important;
+  }
+  .gallery .images {
+    width: 120%;
+  }
+  .populer-product-section .card {
+    width: 180px;
+    padding: 1.1rem !important;
+  }
+  .populer-product-section .card .stickgreen strong,
+  .populer-product-section .card .stickred strong,
+  .populer-product-section .card .hide strong {
+    font-size: 0.625rem;
+  }
+  .populer-product-section .card .card-info h5 {
+    font-size: 0.775rem;
+  }
+  .populer-product-section .card .card-info p {
+    font-size: 0.625rem;
+  }
+  .populer-product-section .card .card-info .price button {
+    font-size: 0.725rem;
+    padding: 0.325rem 0.625rem;
+  }
+  .populer-product-section h3 {
+    font-size: 1.325rem;
+  }
+  .populer-product-section .row {
+    padding: 0 0.925rem;
+  }
+  .best-sells-section .card {
+    height: 420px;
+    width: 230px;
+    margin: 0 0.325rem;
+  }
+  .best-sells-section h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .coffee-card .card-text h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .coffee-card .card-text p {
+    font-size: 0.715rem;
+  }
+  .best-sells-section .card .card-info button {
+    margin-top: 0.325rem;
+    padding: 0.325rem 3rem;
+    font-size: 0.725rem;
+  }
+  .best-sells-section .card .timer-section div {
+    width: 45px;
+    margin: 0 0.125rem;
+    padding: 0.125rem;
+  }
+  .best-sells-section .card .timer-section p {
+    font-size: 0.725rem;
+  }
+  .best-sells-section .card .timer-section span {
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .card-info .price .price-list span {
+    font-size: 0.875rem;
+  }
+  .best-sells-section .card .card-info .price .ratings span {
+    font-size: 0.655rem;
+  }
+  .faq-section .card .card-text h4 {
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+  .faq-section .card .card-text p {
+    font-size: 0.755rem;
+    line-height: 1.555;
+  }
+  .footer-section .foot-sec li a {
+    font-size: 0.675rem;
+  }
+  .footer-section .foot-sec h4 {
+    font-size: 0.725rem;
+  }
+  .footer-section .partners h4 {
+    font-size: 0.875rem;
+    line-height: 1.45;
+  }
+  .footer-section .get-app img {
+    width: 120px;
+  }
+  .footer-section .copy-write p,
+  .footer-section .follow-us p {
+    font-size: 0.725rem;
+  }
+}
+@media (max-width: 992px) {
+  .navigation-wrap .navbar-brand img {
+    width: 400px;
+  }
+  .navigation-wrap .navbar-brand {
+    margin: 0px 0px;
+  }
+  .navigation-wrap {
+    background-color: transparent;
+    text-align: center;
+    padding: 0.325px 0px;
+  }
+  .navigation-wrap .nav-link {
+    line-height: 1.875rem;
+  }
+  .form-box input {
+    width: 25vh;
+    font-size: 0.725rem;
+    padding: 0.325rem;
+  }
+  .form-box {
+    margin: 0px 0px;
+  }
+  .form-box button {
+    font-size: 0.725rem;
+    padding: 0.325rem 0.725rem;
+  }
+  .icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px;
+  }
+  .search-btn {
+    position: absolute;
+    left: 7.5375rem;
+    font-size: 0.725rem;
+  }
+  .icon-list i {
+    font-size: 0.625rem;
+    padding: 0px;
+    margin: 0 0.225rem;
+  }
+  .icon-list button {
+    font-size: 0.625rem;
+    margin: 0px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav .nav-item {
+    font-size: 0.925rem;
+  }
+  .department-btn {
+    font-size: 0.825rem;
+  }
+  .dropdown-mega .dropdown-menu .list-group .list-group-item {
+    padding: 0.095rem 0.225rem;
+    font-size: 0.825rem;
+  }
+  .dropdown-mega .dropdown-menu h5 {
+    font-size: 0.925rem;
+  }
+  .slider-section .banner-info h1 {
+    font-size: 1.525rem;
+    margin-bottom: 0.855rem;
+  }
+  .slider-section .banner-info span {
+    font-size: 0.825rem;
+  }
+  .slider-section .banner-info strong {
+    font-size: 0.525rem;
+    margin-bottom: 0.225rem;
+  }
+  .slider-section .banner-info .highlight {
+    font-size: 1.525rem;
+  }
+  .slider-section .banner-info button {
+    font-size: 0.825rem;
+  }
+  .slider-section .container .first-banner,
+  .slider-section .container .second-banner,
+  .slider-section .container .third-banner {
+    height: 70vh;
+  }
+  .slider-section .banner-info {
+    padding: 1.925rem;
+  }
+  .gallery {
+    width: 2000px;
+  }
+  .gallery .images {
+    width: 150%;
+  }
+  .gallery .card .card-text p {
+    font-size: 0.725rem;
+  }
+  .images img {
+    padding: 0.125rem;
+  }
+  .feature-section h3 {
+    font-size: 1.325rem;
+  }
+  .fruits-banner h3 {
+    font-size: 1rem;
+  }
+  .fruits-banner button {
+    font-size: 0.725rem;
+    padding: 0.475rem;
+  }
+  .breads-banner h3 {
+    font-size: 1rem;
+  }
+  .breads-banner strong,
+  .fruits-banner strong {
+    font-size: 0.725rem;
+    margin-bottom: 0.225rem;
+  }
+  .breads-banner button {
+    font-size: 0.725rem;
+    padding: 0.475rem;
+    margin-bottom: 0.225rem;
+  }
+  .fruits-banner {
+    padding: 0.55rem !important;
+  }
+  .breads-banner {
+    padding: 0.55rem !important;
+  }
+  .arrow-btn {
+    font-size: 0.925rem;
+  }
+  .populer-product-section .card {
+    width: 200px;
+  }
+  .populer-product-section .card .stickgreen strong,
+  .populer-product-section .card .stickred strong,
+  .populer-product-section .card .hide strong {
+    font-size: 0.625rem;
+  }
+  .populer-product-section .card .card-info h5 {
+    font-size: 0.825rem;
+  }
+  .populer-product-section .card .card-info p {
+    font-size: 0.725rem;
+  }
+  .populer-product-section .card .card-info .price span {
+    font-size: 0.875rem;
+  }
+  .populer-product-section .card .card-info .price button {
+    font-size: 0.725rem;
+    padding: 0.325rem 0.725rem;
+  }
+  .populer-product-section h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .card {
+    height: 440px;
+    width: 320px;
+    margin: 0 0.325rem 1.25rem;
+  }
+  .best-sells-section .card img {
+    width: 200px;
+    margin: auto;
+  }
+  .best-sells-section h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .coffee-card .card-text h3 {
+    font-size: 1.375rem;
+  }
+  .best-sells-section .coffee-card .card-text p {
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .card-info button {
+    margin-top: 0.325rem;
+    padding: 0.325rem 5.275rem;
+    font-size: 0.925rem;
+  }
+  .best-sells-section .card .timer-section div {
+    width: 60px;
+    margin: 0 0.125rem;
+    padding: 0.125rem;
+  }
+  .best-sells-section .card .timer-section p {
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .timer-section span {
+    font-size: 0.875rem;
+  }
+  .best-sells-section .card .card-info .price .price-list span {
+    font-size: 0.925rem;
+  }
+  .best-sells-section .card .card-info .price .ratings span {
+    font-size: 0.725rem;
+  }
+
+  .footer-section .foot-sec li a {
+    font-size: 0.675rem;
+  }
+  .footer-section .foot-sec h4 {
+    font-size: 0.825rem;
+  }
+  .footer-section .partners h4 {
+    font-size: 0.775rem;
+    line-height: 1.45;
+  }
+  .footer-section .get-app img {
+    width: 100px;
+  }
+  .footer-section .copy-write p,
+  .footer-section .follow-us p {
+    font-size: 0.625rem;
+    line-height: 1.45;
+  }
+}
+@media (max-width: 768px) {
+  .form-box input {
+    width: 0px;
+    display: none;
+  }
+  .form-box i {
+    display: none;
+  }
+  .form-box button {
+    display: none;
+  }
+  .form-box form button {
+    width: 0px;
+    display: none;
+  }
+  .navigation-wrap .navbar-brand img {
+    width: 750px;
+  }
+  .icon-list i {
+    font-size: 0.625rem;
+    padding: 0px;
+    margin: 0 0.225rem;
+  }
+  .icon-list button {
+    font-size: 0.625rem;
+    margin: 0px;
+  }
+
+  .navbar .navbar-collapse .navbar-nav .nav-item {
+    font-size: 0.725rem;
+  }
+  .department-btn {
+    font-size: 0.725rem;
+  }
+  .dropdown-mega .dropdown-menu .list-group .list-group-item {
+    padding: 0.095rem 0.225rem;
+    font-size: 0.725rem;
+  }
+  .dropdown-mega .dropdown-menu h5 {
+    font-size: 0.825rem;
+  }
+  .gallery {
+    width: 2200px;
+  }
+  .gallery .images {
+    width: 200%;
+  }
+  .gallery .card .card-text p {
+    font-size: 0.725rem;
+  }
+  .images img {
+    padding: 0.125rem;
+  }
+  .feature-section h3 {
+    font-size: 1.325rem;
+  }
+  .fruits-banner h3,
+  .breads-banner h3 {
+    font-size: 1.125rem;
+  }
+  .breads-banner strong,
+  .fruits-banner strong {
+    font-size: 0.825rem;
+    margin-bottom: 0.225rem;
+  }
+  .breads-banner button,
+  .fruits-banner button {
+    font-size: 0.825rem;
+    padding: 0.525rem;
+    margin-bottom: 0.225rem;
+  }
+  .fruits-banner {
+    padding: 1.625rem !important;
+    margin-bottom: 1.225rem;
+  }
+  .breads-banner {
+    padding: 1.625rem !important;
+    margin-bottom: 1.225rem;
+  }
+  .arrow-btn {
+    font-size: 0.825rem;
+  }
+  .headline {
+    position: relative;
+  }
+  .arrow-buttons button {
+    position: absolute;
+    top: 0;
+    right: 5.925rem;
+    margin: 0 -2.25rem;
+  }
+  .populer-product-section .card {
+    width: 220px;
+  }
+  .populer-product-section .card .stickgreen strong,
+  .populer-product-section .card .stickred strong,
+  .populer-product-section .card .hide strong {
+    font-size: 0.625rem;
+  }
+  .populer-product-section .card .card-info h5 {
+    font-size: 0.875rem;
+  }
+  .populer-product-section .card .card-info p {
+    font-size: 0.785rem;
+  }
+  .populer-product-section .card .card-info .price span {
+    font-size: 0.875rem;
+  }
+  .populer-product-section .card .card-info .price button {
+    font-size: 0.825rem;
+    padding: 0.325rem 0.725rem;
+  }
+  .populer-product-section h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .card {
+    height: 380px;
+    width: 250px;
+    margin: 0 0.325rem 1.25rem;
+  }
+  .best-sells-section .card img {
+    width: 150px;
+    margin: auto;
+  }
+  .best-sells-section h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .coffee-card .card-text h3 {
+    font-size: 1.375rem;
+  }
+  .best-sells-section .coffee-card .card-text p {
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .card-info button {
+    margin-top: 0.325rem;
+    padding: 0.325rem 3.425rem;
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .timer-section div {
+    width: 60px;
+    margin: 0 0.125rem;
+    padding: 0.125rem;
+  }
+  .best-sells-section .card .timer-section p {
+    font-size: 0.725rem;
+  }
+  .best-sells-section .card .timer-section span {
+    font-size: 0.775rem;
+  }
+  .best-sells-section .card .card-info .price .price-list span {
+    font-size: 0.875rem;
+  }
+  .best-sells-section .card .card-info .price .ratings span {
+    font-size: 0.725rem;
+  }
+  .faq-section .card .img-icon i {
+    font-size: 1.725rem;
+  }
+  .footer-section .foot-sec li a {
+    font-size: 0.725rem;
+  }
+  .footer-section .foot-sec h4 {
+    font-size: 0.975rem;
+  }
+  .footer-section .partners h4 {
+    font-size: 0.675rem;
+    line-height: 1.45;
+    margin: 0 0.125rem !important;
+  }
+  .footer-section .payment img {
+    width: 30px;
+  }
+  .footer-section .get-app img {
+    width: 75px;
+  }
+  .footer-section .copy-write p,
+  .footer-section .follow-us p {
+    font-size: 0.625rem;
+    line-height: 1.45;
+  }
+  .footer-section .follow-us i {
+    font-size: 0.975rem;
+  }
+}
+@media (max-width: 576px) {
+  .navigation-wrap .navbar-brand img {
+    width: 450px;
+  }
+  .icon-list {
+    margin: 0 1.425rem;
+    width: 15px;
+  }
+  .icon-list button {
+    padding: 0.225rem 0.25rem;
+  }
+  .icon-list button i {
+    font-size: 0.525rem;
+  }
+  .slider-section .container .first-banner,
+  .slider-section .container .second-banner,
+  .slider-section .container .third-banner {
+    height: 55vh;
+  }
+  .slider-section .banner-info {
+    padding-top: 2.225rem;
+  }
+  .slider-section .banner-info button,
+  .slider-section .banner-info span {
+    font-size: 0.725rem;
+  }
+  .slider-section .banner-info h1 {
+    font-size: 1.225rem;
+    margin-bottom: 0.655rem;
+  }
+  .slider-section .banner-info strong {
+    font-size: 0.525rem;
+    margin-bottom: 0.225rem;
+  }
+  .slider-section .banner-info .highlight {
+    font-size: 1.225rem;
+  }
+  .headline {
+    position: relative;
+  }
+  .arrow-buttons button {
+    position: absolute;
+    top: 0;
+    right: 5.925rem;
+    margin: 0 -2.25rem;
+  }
+
+  .feature-banner {
+    padding: 2.325rem;
+  }
+  .feature-section h3 {
+    font-size: 1.225rem;
+  }
+  .fruits-banner h3,
+  .breads-banner h3 {
+    font-size: 1.325rem;
+    margin-bottom: 0rem !important;
+  }
+  .breads-banner strong,
+  .fruits-banner strong {
+    font-size: 0.825rem;
+  }
+  .breads-banner,
+  .fruits-banner {
+    padding: 2.25rem !important;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .breads-banner button,
+  .fruits-banner button {
+    font-size: 0.725rem;
+    padding: 0.455rem;
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+    margin-bottom: 1rem;
+  }
+  .height {
+    height: 175px;
+  }
+  .gallery {
+    width: 2500px;
+  }
+  .gallery .images {
+    width: 250%;
+  }
+  .gallery .card .card-text p {
+    font-size: 0.725rem;
+  }
+  .images img {
+    padding: 0.625rem;
+  }
+  .best-sells-section .card {
+    height: 380px;
+    width: 220px;
+    margin: 0 auto 1.25rem;
+  }
+
+  .best-sells-section .card img {
+    width: 130px;
+    margin: auto;
+  }
+  .best-sells-section h3 {
+    font-size: 1.325rem;
+  }
+  .best-sells-section .coffee-card .card-text h3 {
+    font-size: 1.375rem;
+  }
+  .best-sells-section .coffee-card .card-text p {
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .card-info button {
+    margin-top: 0.325rem;
+    padding: 0.325rem 2.5rem;
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .card-info h5 {
+    font-size: 0.875rem;
+  }
+  .best-sells-section .card .card-info p {
+    font-size: 0.685rem;
+  }
+  .best-sells-section .card .timer-section div {
+    width: 65px;
+    margin: 0 0.125rem;
+    padding: 0.125rem;
+  }
+  .best-sells-section .card .timer-section p {
+    font-size: 0.675rem;
+  }
+  .best-sells-section .card .timer-section span {
+    font-size: 0.725rem;
+  }
+  .best-sells-section .card .card-info .price .price-list span {
+    font-size: 0.825rem;
+  }
+  .best-sells-section .card .card-info .price .ratings span {
+    font-size: 0.625rem;
+  }
+
+  .faq-section .card .img-icon i {
+    font-size: 1.625rem;
+  }
+  .faq-section .card .card-text h4 {
+    font-size: 0.975rem;
+  }
+  .faq-section .card .card-text p {
+    font-size: 0.725rem;
+  }
+  .footer-section .foot-sec li a {
+    font-size: 0.725rem;
+  }
+  .footer-section .foot-sec h4 {
+    font-size: 0.975rem;
+  }
+  .footer-section .partners {
+    margin-bottom: 0.625rem;
+    padding: 0.325rem;
+  }
+  .footer-section .partners h4 {
+    font-size: 0.775rem;
+    line-height: 1.45;
+  }
+  .footer-section .payment img {
+    width: 60px;
+  }
+  .footer-section .get-app img {
+    width: 100px;
+  }
+  .footer-section .copy-write p,
+  .footer-section .follow-us p {
+    font-size: 0.725rem;
+    line-height: 1.45;
+  }
+  .footer-section .follow-us i {
+    font-size: 0.975rem;
+  }
+}
+@media (max-width: 568px) {
+  .navigation-wrap .navbar-brand img {
+    width: 450px;
+  }
+  .icon-list {
+    margin: 0 1.425rem;
+    width: 15px;
+  }
+  .icon-list button {
+    padding: 0.225rem 0.25rem;
+  }
+  .icon-list button i {
+    font-size: 0.525rem;
+  }
+  .slider-section .container .first-banner,
+  .slider-section .container .second-banner,
+  .slider-section .container .third-banner {
+    height: 50vh;
+  }
+  .slider-section .banner-info {
+    padding-top: 2.225rem;
+  }
+  .slider-section .banner-info button,
+  .slider-section .banner-info span {
+    font-size: 0.725rem;
+  }
+  .slider-section .banner-info h1 {
+    font-size: 1.225rem;
+    margin-bottom: 0.655rem;
+  }
+  .slider-section .banner-info strong {
+    font-size: 0.525rem;
+    margin-bottom: 0.225rem;
+  }
+  .slider-section .banner-info .highlight {
+    font-size: 1.225rem;
+  }
+  .headline {
+    position: relative;
+  }
+  .arrow-buttons button {
+    position: absolute;
+    top: 0;
+    right: 5.925rem;
+    margin: 0 -2.25rem;
+  }
+
+  .feature-banner {
+    padding: 2.325rem;
+  }
+  .feature-section h3 {
+    font-size: 1.225rem;
+  }
+  .fruits-banner h3,
+  .breads-banner h3 {
+    font-size: 1.325rem;
+    margin-bottom: 0rem !important;
+  }
+  .breads-banner strong,
+  .fruits-banner strong {
+    font-size: 0.825rem;
+  }
+  .breads-banner,
+  .fruits-banner {
+    padding: 2.525rem !important;
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  .breads-banner button,
+  .fruits-banner button {
+    font-size: 0.625rem;
+    padding: 0.525rem;
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    margin-bottom: 1rem;
+  }
+  .height {
+    height: 150px;
+  }
+  .gallery {
+    width: 2500px;
+  }
+  .gallery .images {
+    width: 250%;
+  }
+  .gallery .card .card-text p {
+    font-size: 0.725rem;
+  }
+  .images img {
+    padding: 0.625rem;
+  }
+  .populer-product-section .card {
+    width: 200px;
+    margin: 0 0.325rem;
+  }
+  .populer-product-section .card .stickgreen strong,
+  .populer-product-section .card .stickred strong,
+  .populer-product-section .card .hide strong {
+    font-size: 0.525rem;
+  }
+  .populer-product-section .card .card-info h5 {
+    font-size: 0.755rem;
+  }
+  .populer-product-section .card .card-info p {
+    font-size: 0.685rem;
+  }
+  .populer-product-section .card .card-info .price span {
+    font-size: 0.875rem;
+  }
+  .populer-product-section .card .card-info .price button {
+    font-size: 0.825rem;
+    padding: 0.325rem 0.725rem;
+  }
+  .populer-product-section h3 {
+    font-size: 1.325rem;
+  }
+}
+@media (max-width: 468px) {
+  .populer-product-section .card {
+    width: 170px;
+  }
+}
+@media (max-width: 378px) {
+  .populer-product-section .card {
+    width: 150px;
+  }
+  .populer-product-section .row {
+    margin: 0 auto;
+  }
+}

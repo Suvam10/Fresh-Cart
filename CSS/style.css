@@ -1,0 +1,569 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--text-white);
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-black);
+  text-transform: capitalize;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text-black);
+  text-transform: capitalize;
+}
+h4 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  color: var(--text-grey);
+  text-transform: capitalize;
+  max-width: 75%;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-bottom: 0;
+  font-family: var(--secondary-font);
+  letter-spacing: 0.0625rem;
+}
+span {
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-family: var(--fancey-text);
+  color: var(--bg-grey);
+}
+
+:root {
+  /** background-color */
+
+  --primary-color: #00b922;
+  --secondary-color: #040c27;
+  --bg-white-color: #f8f8f8;
+  --bg-black-color: #181818;
+  --bg-light-blue-color: #0b3462;
+  --bg-deep-green-color: #007e17;
+  --border-color: #b6b6b648;
+  --bg-white-grey: rgba(204, 204, 204, 0.574);
+  --bg-grey: rgba(33, 33, 33, 0.574);
+  --bg-text-grey: rgba(58, 58, 58, 0.923);
+  /** Text Style  */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 0.825rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--border-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-grey);
+}
+.input-box {
+  width: 40rem;
+}
+.wrapper {
+  padding: 50px 0;
+}
+
+.main-btn {
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 0.425rem 1.375rem;
+  border-radius: 0.325rem;
+  background: var(--primary-color);
+  color: var(--bg-white-color);
+}
+.main-btn:hover {
+  background-color: var(--bg-deep-green-color);
+}
+.container .col-sm-12 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1.125rem;
+}
+.navbar .row{
+  background-color: transparent;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  margin: 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item a:hover,
+.navbar .navbar-collapse .navbar-nav .nav-item a.active {
+  color: var(--primary-color);
+}
+.navigation-wrap {
+  width: 100%;
+}
+.form-box button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-list i {
+  font-size: 1rem;
+}
+.nav-box {
+  border-bottom: 2px solid var(--border-color);
+  padding: 0px 0px;
+}
+
+.dropdown-mega .dropdown-menu {
+  width: 80%;
+  margin-left: 10%;
+}
+.dropdown-mega .dropdown-menu h5 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.dropdown-mega .dropdown-menu .list-group .list-group-item {
+  font-size: 0.875rem;
+  border: none;
+  outline: none;
+  padding: 0.325rem 0.225rem;
+}
+.dropdown-mega .dropdown-menu .list-group .list-group-item:hover {
+  background-color: var(--border-color);
+}
+.navigation-wrap .navbar-brand img {
+  width: 200px;
+}
+.navigation-wrap .nav-item {
+  transition: all 200ms linear;
+}
+.navbar-toggler:focus {
+  outline: unset;
+  box-shadow: none;
+  box-shadow: none;
+}
+.navigation-wrap.scroll-on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  box-shadow: 0 2px 27.6px 0 rgb(0, 0, 0, 0.09);
+  transition: all 0.15s ease-in-out 0s;
+}
+.form-box {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  right: 9.6375rem;
+  font-size: 1rem;
+}
+.highlight {
+  color: var(--primary-color);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.slider-section .container .first-banner {
+  background: url("https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421147.jpg?t=st=1716454739~exp=1716458339~hmac=eddb891ccb98dd0f39077a7ce946712a31194bc7c6c85057ebebc66380d8fd96&w=1380")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 0.625rem;
+  height: 70vh;
+}
+.slider-section .container .second-banner {
+  background: url("https://img.freepik.com/free-photo/flat-lay-vegetables-frame_23-2148516769.jpg?t=st=1716482826~exp=1716486426~hmac=6a45630ce4f6d578d987700ee1289bef6ef2ed467d9749317293c6d7c1e0b3de&w=1060")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 0.625rem;
+  height: 70vh;
+}
+.slider-section .container .third-banner {
+  background: url("https://img.freepik.com/free-photo/fresh-fruits-vegetables-colored-background-flat-lay_169016-23618.jpg?t=st=1716484205~exp=1716487805~hmac=612117b461325b8b7b0647a4d67afd80505c2d05ea1736a2e49880b8d2d9286c&w=996")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 0.625rem;
+  height: 70vh;
+}
+.slider-section .banner-info {
+  padding: 3.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.slider-section .banner-info strong {
+  background-color: rgb(255, 196, 0);
+  padding: 0 0.425rem;
+  border-radius: 0.25rem;
+  font-size: 0.695rem;
+}
+.order-btn {
+  background-color: var(--secondary-color);
+  color: var(--bg-white-color);
+  margin-right: 3.125rem;
+}
+.order-btn:hover {
+  background-color: var(--bg-light-blue-color);
+  color: var(--bg-white-color);
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-btn {
+  background-color: var(--border-color);
+  color: var(--secondary-color);
+  font-size: 1.125rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+.arrow-btn:hover {
+  background-color: var(--primary-color);
+  box-shadow: 2px 2px 6px 0 rgba(0, 0, 0, 0.202);
+  color: var(--bg-white-color);
+}
+
+.gallery {
+  display: flex;
+  overflow-x: scroll;
+  width: 1500px;
+  margin-top: 30px;
+}
+.images {
+  display: flex;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  flex: none;
+}
+.gallery .card {
+  width: 200px;
+}
+.gallery .card:hover {
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 7px 22px 1px rgba(0, 0, 0, 0.16);
+}
+.gallery .card .card-text p {
+  font-size: 0.825rem;
+}
+.images img {
+  width: 100%;
+  padding: 1rem;
+  transition: transform 0.3s;
+}
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+.gallery-wrap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.fruits-banner {
+  background: url("https://img.freepik.com/free-photo/top-view-lemons-cherries-fresh-fruits-light-desk-fruit-fresh-mellow-ripe_140725-40306.jpg?t=st=1716543260~exp=1716546860~hmac=620c008ab734011707c6a77e51a0179c5d096c7054524d1171faf53dcff04694&w=996")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+.fruits-banner h3 {
+  font-size: 1.5rem;
+}
+.fruits-banner button {
+  font-size: 0.825rem;
+}
+.breads-banner {
+  background: url("https://img.freepik.com/free-photo/variety-bread-wooden-table-old-wooden-background_1150-9865.jpg?t=st=1716543466~exp=1716547066~hmac=c335bbaaaebd6a85d69397d5b805fc0d5fca1b00086cf82bb146728ad542ac9e&w=996")
+    no-repeat center;
+  background-size: cover;
+  border-radius: 0.5rem;
+}
+.breads-banner h3 {
+  font-size: 1.5rem;
+}
+.breads-banner button {
+  font-size: 0.825rem;
+}
+.feature-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.carousel {
+  position: relative;
+}
+.carousel .dot-btn {
+  position: absolute;
+}
+.populer-product-section .card .card-info .ratings .checked,
+.populer-product-section .card .card-info .ratings .half {
+  color: orange;
+}
+.populer-product-section {
+  overflow: hidden;
+}
+.populer-product-section .card {
+  width: 250px;
+}
+.populer-product-section .card:hover {
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 7px 22px 1px rgba(0, 0, 0, 0.16);
+}
+.populer-product-section .card .stickred strong {
+  background-color: rgb(228, 2, 2);
+  color: var(--bg-white-color);
+  padding: 2px 7px;
+  font-size: 0.725rem;
+  border-radius: 0.3125rem;
+  margin: 0px;
+}
+.populer-product-section .card .stickgreen strong {
+  background-color: var(--bg-deep-green-color);
+  color: var(--bg-white-color);
+  padding: 2px 7px;
+  font-size: 0.725rem;
+  border-radius: 0.3125rem;
+}
+.populer-product-section .card .hide strong {
+  background-color: transparent;
+  color: transparent;
+}
+.populer-product-section .card .card-info h5 {
+  font-size: 0.975rem;
+  margin-bottom: 0px;
+}
+.populer-product-section .card .card-info p {
+  font-size: 0.775rem;
+}
+.populer-product-section .card .card-info .ratings span {
+  font-size: 0.725rem;
+}
+.populer-product-section .card .card-info .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.525rem;
+}
+.populer-product-section .card .card-info .price span {
+  font-size: 0.905rem;
+  color: var(--bg-black-color);
+}
+.populer-product-section .card .card-info .price button {
+  font-size: 0.825rem;
+  color: var(--bg-white-color);
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+}
+.populer-product-section .card .card-info .price button:hover {
+  background-color: var(--bg-deep-green-color);
+}
+.best-sells-section {
+  overflow: hidden;
+}
+.best-sells-section .coffee-card {
+  background: url("https://images.pexels.com/photos/14047775/pexels-photo-14047775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+    no-repeat center;
+  background-size: cover;
+}
+
+.best-sells-section .card {
+  height: 500px;
+  width: 315px;
+}
+.best-sells-section .coffee-card .card-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  color: var(--bg-white-color);
+  padding: 0.925rem;
+}
+.best-sells-section .coffee-card .card-text h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+.best-sells-section .coffee-card .card-text p {
+  font-size: 0.875rem;
+}
+.best-sells-section .coffee-card .card-text button {
+  font-size: 0.875rem;
+  margin-top: 0.425rem;
+}
+.best-sells-section .card .card-info .price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.best-sells-section .card .card-info h5 {
+  font-size: 0.975rem;
+}
+.best-sells-section .card .card-info p {
+  font-size: 0.725rem;
+}
+.best-sells-section .card .card-info .price .price-list span {
+  font-size: 1.05rem;
+}
+.best-sells-section .card .card-info .price .ratings span {
+  font-size: 0.755rem;
+}
+.best-sells-section .card .card-info .price .ratings .checked,
+.half {
+  color: orange;
+}
+.best-sells-section .card .card-info button {
+  margin-top: 0.325rem;
+  padding: 0.325rem 5rem;
+}
+.best-sells-section .card .card-info button:hover {
+  background-color: var(--bg-deep-green-color);
+  color: var(--bg-white-color);
+}
+.best-sells-section .card .timer-section span {
+  font-size: 0.925rem;
+  font-weight: 700;
+}
+.best-sells-section .card .timer-section p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--bg-black-color);
+}
+.best-sells-section .card .timer-section div {
+  border: 1px solid var(--border-color);
+  width: 60px;
+  text-align: center;
+  border-radius: 0.325rem;
+}
+.best-sells-section .card .timer-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.825rem;
+}
+.best-sells-section .card:hover {
+  border: 1px solid var(--primary-color);
+  box-shadow: 0px 7px 22px 1px rgba(0, 0, 0, 0.16);
+}
+.faq-section .card{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+.faq-section .card .img-icon i {
+  font-size: 2.225rem;
+  color: var(--primary-color);
+  margin-bottom: 0.325rem;
+}
+.faq-section .card .card-text h4 {
+  font-size: 1.095rem;
+  font-weight: 600;
+}
+.faq-section .card .card-text p {
+  font-size: 0.825rem;
+  line-height: 1.555;
+  font-weight: 600;
+  color: var(--bg-text-grey);
+}
+.faq-section .card {
+  border: none;
+}
+#footer {
+  background-color: var(--secondary-color);
+}
+
+.footer-section .foot-sec li {
+  list-style: none;
+}
+.footer-section .foot-sec {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.footer-section .foot-sec li a {
+  color: var(--bg-white-grey);
+  font-size: 0.925rem;
+  font-weight: 400;
+  line-height: 2;
+}
+.footer-section .foot-sec li a:hover {
+  color: var(--primary-color);
+}
+.footer-section .foot-sec h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--bg-white-color);
+  width: 100%;
+}
+.footer-section .row {
+  border-bottom: 1px solid var(--border-color);
+}
+.footer-section .partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .625rem 0;
+}
+.footer-section .partners h4 {
+  font-size: 1.025rem;
+  font-weight: 400;
+  color: var(--bg-white-color);
+  width: 100%;
+}
+.footer-section .partners img {
+  margin: 0 0.255rem;
+}
+.footer-section .copy-write {
+  padding: 0.525rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--bg-white-grey);
+}
+.footer-section .follow-us {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  color: var(--bg-white-grey);
+}
+.footer-section .follow-us i {
+  font-size: 1.225rem;
+  color: var(--bg-white-color);
+  margin: 0 0.255rem;
+  transition: 0.3s ease;
+}
+.footer-section .follow-us i:hover {
+  color: var(--primary-color);
+}
