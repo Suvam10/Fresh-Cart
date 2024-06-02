@@ -114,7 +114,7 @@ span {
   align-items: center;
   margin-bottom: 1.125rem;
 }
-.navbar .row{
+.navbar .row {
   background-color: transparent;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item {
@@ -128,6 +128,16 @@ span {
 }
 .navigation-wrap {
   width: 100%;
+}
+.navbar-toggler:focus {
+  outline: unset;
+  box-shadow: none;
+  box-shadow: none;
+}
+.navbar-toggler{
+  outline: none;
+  border: none;
+  padding: 0 0.525rem;
 }
 .form-box button {
   display: flex;
@@ -188,11 +198,13 @@ span {
   right: 9.6375rem;
   font-size: 1rem;
 }
+
 .highlight {
   color: var(--primary-color);
   font-size: 3rem;
   font-weight: 700;
 }
+
 .slider-section .container .first-banner {
   background: url("https://img.freepik.com/free-photo/supermarket-banner-concept-with-ingredients_23-2149421147.jpg?t=st=1716454739~exp=1716458339~hmac=eddb891ccb98dd0f39077a7ce946712a31194bc7c6c85057ebebc66380d8fd96&w=1380")
     no-repeat center;
@@ -476,7 +488,7 @@ span {
   border: 1px solid var(--primary-color);
   box-shadow: 0px 7px 22px 1px rgba(0, 0, 0, 0.16);
 }
-.faq-section .card{
+.faq-section .card {
   display: flex;
   justify-content: start;
   align-items: start;
@@ -534,7 +546,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: .625rem 0;
+  padding: 0.625rem 0;
 }
 .footer-section .partners h4 {
   font-size: 1.025rem;
@@ -554,7 +566,7 @@ span {
 }
 .footer-section .follow-us {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   color: var(--bg-white-grey);
 }
